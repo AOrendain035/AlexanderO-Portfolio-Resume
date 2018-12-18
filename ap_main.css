@@ -1,15 +1,18 @@
-@charset "utf-8"
+@charset "utf-8";
 
 
 
 
 
 html {
-    color: rgb(37, 191, 211);
+    background-color: rgb(37, 191, 211);
     height: 100%;
 }
 
 body {
     width: 90%;
-    color: aqua;
+}
+
+body:not(header) {
+    text-align: center
 }
