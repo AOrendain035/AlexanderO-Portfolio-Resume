@@ -19,16 +19,33 @@ body {
 }
 
 p {
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 p b {
-    font-size: 1.1em;
+    font-size: 1.3em;
 }
 
 h1 {
+    font-size: 3.3em;
+    text-shadow: 2px 5px 5px Blue;
+    text-align: center;
+}
+
+h2 {
     font-size: 2em;
     text-align: center;
+}
+
+aside{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+aside img {
+    width: 100%;
+    float: right;
 }
 
 /* Header Styles */
@@ -39,7 +56,7 @@ body>header>img {
 }
 
 body>header>nav li {
-    width: 20%;
+    width: 25%;
 }
 
 nav li {
