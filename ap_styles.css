@@ -31,18 +31,18 @@ p b {
     font-size: 1.3em;
 }
 
-h1 {
+h1#main {
     font-size: 3.3em;
-    text-shadow: 2px 5px 5px Blue;
+    text-shadow: blue 2px 2px 1px, rgba(21, 21, 21, 0.66) 5px 5px 25px;
     text-align: center;
 }
 
-h2 {
+h1 {
     font-size: 2em;
     text-align: center;
 }
 
-aside {
+aside#edu {
     display: table;
     content: "";
     clear: both;
@@ -50,11 +50,25 @@ aside {
     float: right;
 }
 
-aside img {
+aside#edu img {
     width: 100%;
     float: right;
     padding-right: 30px;
     padding-bottom: 30px;
+}
+
+p#links {
+    width: 100%;
+}
+
+p#links a {
+    color: white;
+    background-color: rgb(220, 27, 27);
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+    vertical-align: middle;
+    align-content: center;
 }
 
 /* Header Styles */
@@ -77,5 +91,7 @@ nav a {
     display: block;
     text-align: center;
     text-decoration: none;
+    color: red;
     font-size: 1.3em;
 }
+
