@@ -42,21 +42,6 @@ h1 {
     text-align: center;
 }
 
-aside#edu {
-    display: table;
-    content: "";
-    clear: both;
-    width: 40%;
-    float: right;
-}
-
-aside#edu img {
-    width: 100%;
-    float: right;
-    padding-right: 30px;
-    padding-bottom: 30px;
-}
-
 p#links {
     width: 100%;
 }
@@ -95,3 +80,54 @@ nav a {
     font-size: 1.3em;
 }
 
+/* All Aside Styles */
+aside#extraC {
+    display: table;
+    content: "";
+    clear: both;
+    width: 100%;
+}
+
+aside#extraC img {
+    float: right;
+    width: 50%;
+}
+
+aside#extraC blockquote {
+    width: 50%;
+    float: left;
+    padding: 0px;
+}
+
+aside#edu2 {
+    width: 55%;
+    display: table;
+    content: "";
+    clear: both;
+}
+
+aside#edu2 blockquote.edu {
+    font-size: 1.4em;
+    width: 100%;
+}
+
+blockquote.extraC p {
+    font-size: 1.4em;
+}
+
+aside#edu {
+    display: table;
+    content: "";
+    clear: both;
+    width: 40%;
+    float: right;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+aside#edu img {
+    width: 100%;
+    float: right;
+    /* padding-right: 30px;
+    padding-bottom: 30px; */
+}
