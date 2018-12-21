@@ -24,14 +24,37 @@ body {
 article#index {
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
+    display: table;
+    content: "";
+    clear: both;
 }
 
-article#index img {
+article#index img#me {
     transform: rotateZ(90deg);
-    width: 30%;
-    height: 50%;
-    margin-right: auto;
-    margin-left: auto;
+    width: 33.3%;
+    height: 40%;
+    padding-top: 10px;
+}
+
+article#index img#lobo {
+    width: 33.3%;
+    height: 40%;
+    float: left;
+}
+
+article#index img#westM {
+    width: 33.3%;
+    height: 40%;
+    float: right;
+}
+
+ul li a {
+    font-size: 1.5em;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: red;
 }
 
 p {
@@ -59,14 +82,16 @@ p#links {
     width: 100%;
 }
 
-p#links a {
+p#links a#firsta,
+p#links a#seconda {
     color: white;
+    width: 37.5%;
     background-color: rgb(220, 27, 27);
     border-radius: 20px;
     padding: 10px;
     text-decoration: none;
-    vertical-align: middle;
-    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Header Styles */
@@ -95,21 +120,10 @@ nav a {
 
 /* All Aside Styles */
 aside#extraC::after {
+    width: 55%;
     display: table;
     content: "";
     clear: both;
-    width: 100%;
-}
-
-aside#extraC img {
-    float: right;
-    width: 50%;
-}
-
-aside#extraC blockquote {
-    width: 50%;
-    float: left;
-    padding: 0px;
 }
 
 aside#edu2::after {
@@ -119,13 +133,24 @@ aside#edu2::after {
     clear: both;
 }
 
+aside#extraC blockquote.extraC {
+    font-size: 1.4em;
+    width: 100%;
+}
+
 aside#edu2 blockquote.edu2 {
     font-size: 1.4em;
     width: 100%;
 }
 
-blockquote.extraC p {
-    font-size: 1.4em;
+aside#extraC2 {
+    display: table;
+    content: "";
+    clear: both;
+    width: 40%;
+    float: right;
+    padding-right: 30px;
+    padding-bottom: 30px;
 }
 
 aside#edu {
@@ -138,9 +163,12 @@ aside#edu {
     padding-bottom: 30px;
 }
 
+aside#extraC2 img {
+    width: 100%;
+    float: right;
+}
+
 aside#edu img {
     width: 100%;
     float: right;
-    /* padding-right: 30px;
-    padding-bottom: 30px; */
 }
