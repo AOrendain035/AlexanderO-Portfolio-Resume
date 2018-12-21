@@ -2,8 +2,8 @@
 
 
 
-
-
+/* Underneath, Created styles that would affect most if not all of the pages. These styles include changing withs of the html page/body, changing font sizes for p tags, etc. */
+/* General Styles */
 html {
     background: url(16618699032_34a7d8eb41_b.jpg) no-repeat fixed;
     background-size: 100% 100%;
@@ -19,34 +19,6 @@ body {
     display: table;
     content: "";
     clear: both;
-}
-
-article#index {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    display: table;
-    content: "";
-    clear: both;
-}
-
-article#index img#me {
-    transform: rotateZ(90deg);
-    width: 33.3%;
-    height: 40%;
-    padding-top: 10px;
-}
-
-article#index img#lobo {
-    width: 33.3%;
-    height: 40%;
-    float: left;
-}
-
-article#index img#westM {
-    width: 33.3%;
-    height: 40%;
-    float: right;
 }
 
 ul li a {
@@ -67,33 +39,12 @@ p b {
     font-size: 1.3em;
 }
 
-h1#main {
-    font-size: 3.3em;
-    text-shadow: blue 2px 2px 1px, rgba(21, 21, 21, 0.66) 5px 5px 25px;
-    text-align: center;
-}
-
 h1 {
     font-size: 2em;
     text-align: center;
 }
 
-p#links {
-    width: 100%;
-}
-
-p#links a#firsta,
-p#links a#seconda {
-    color: white;
-    width: 37.5%;
-    background-color: rgb(220, 27, 27);
-    border-radius: 20px;
-    padding: 10px;
-    text-decoration: none;
-    margin-left: auto;
-    margin-right: auto;
-}
-
+/* For header styles, I added styles that would only affect the header, which is the same for every page. Created styles for nav so that they're in one line, centered the text within the nav links, changed font size/color, etc. */
 /* Header Styles */
 body>header>img {
     display: block;
@@ -118,6 +69,7 @@ nav a {
     font-size: 1.3em;
 }
 
+/* The styles underneath specifically target the different asides within two of the pages. Worked with changings widths of the asides, fixing container collapse, changing font sizes, resizing images, adding quotes, et cetera. */
 /* All Aside Styles */
 aside#extraC::after {
     width: 55%;
@@ -171,4 +123,55 @@ aside#extraC2 img {
 aside#edu img {
     width: 100%;
     float: right;
+}
+
+/* These styles underneath will only affect the index, or "home page". Added in styles that make my name stand out with text shadows and size, created styles for the three images on my index, gave the contact links a cool bubble, changed widths and got rid of some text decoration. */
+/* Index Styles */
+article#index {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: table;
+    content: "";
+    clear: both;
+}
+
+article#index img#me {
+    transform: rotateZ(90deg);
+    width: 33.3%;
+    height: 40%;
+}
+
+article#index img#lobo {
+    width: 33.3%;
+    height: 40%;
+    float: left;
+}
+
+article#index img#westM {
+    width: 33.3%;
+    height: 40%;
+    float: right;
+}
+
+p#links {
+    width: 100%;
+}
+
+p#links a#firsta,
+p#links a#seconda {
+    color: white;
+    width: 37.5%;
+    background-color: rgb(220, 27, 27);
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1#main {
+    font-size: 3.3em;
+    text-shadow: blue 2px 2px 1px, rgba(21, 21, 21, 0.66) 5px 5px 25px;
+    text-align: center;
 }
