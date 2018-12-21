@@ -21,6 +21,19 @@ body {
     clear: both;
 }
 
+article#index {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article#index img {
+    transform: rotateZ(90deg);
+    width: 30%;
+    height: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 p {
     font-size: 1.2em;
     padding-left: 10px;
@@ -81,7 +94,7 @@ nav a {
 }
 
 /* All Aside Styles */
-aside#extraC {
+aside#extraC::after {
     display: table;
     content: "";
     clear: both;
@@ -99,14 +112,14 @@ aside#extraC blockquote {
     padding: 0px;
 }
 
-aside#edu2 {
+aside#edu2::after {
     width: 55%;
     display: table;
     content: "";
     clear: both;
 }
 
-aside#edu2 blockquote.edu {
+aside#edu2 blockquote.edu2 {
     font-size: 1.4em;
     width: 100%;
 }
